@@ -1,6 +1,30 @@
+*{
+    font-family: "Kanit", sans-serif;
+    
+}
+
+body{
+    background: rgb(245,245,245);
+    background: -moz-radial-gradient(circle, rgba(245,245,245,1) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(245,245,245,1) 0%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(circle, rgba(245,245,245,1) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5f5f5",endColorstr="#000000",GradientType=1);
+}
+
+
 h1{
-    text-align: center;
+    display: inline-block;
+    margin-left: 39%;
     font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: "Caveat Brush", cursive;
+}
+
+.brim{
+    width: 100px;
+    margin-bottom: 40px;
+    margin-left: 10px;
 }
 
 .data {
@@ -16,10 +40,43 @@ table, th {
     text-transform: uppercase;
 }
 
+table, td {
+    line-height: 50px;
+}
+
 .contenedor{
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .nickname {
     font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bt, a{
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.bt, a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.info:hover{
+    transition: 0.5s;
+    background-color: aqua;
+}
+
+.danger:hover{
+    transition: 0.5s;
+    background-color: red;
+}
+
+.info, .danger {
+    transition: 0.5s;
 }
